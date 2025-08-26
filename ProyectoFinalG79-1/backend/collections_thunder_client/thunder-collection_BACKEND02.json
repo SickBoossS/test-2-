@@ -1,0 +1,451 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "BACKEND02",
+    "collectionId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+    "dateExported": "2025-06-09T02:58:41.401Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4cf05210-3512-4cd6-92a9-7546727c84b8",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/region",
+            "url": "http://localhost:5000/api/comuna",
+            "method": "POST",
+            "sortNum": 2500,
+            "created": "2025-06-02T03:11:37.387Z",
+            "modified": "2025-06-02T03:17:11.938Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\":\"dskjfhdkjjhgfdsjkgf\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvcXVlc2VhQGdtYWlsLmNvbSIsImlhdCI6MTc0ODgzMzU5NSwiZXhwIjoxNzQ4ODM0Nzk1fQ.T7bvayCjvqQPGja0Rt6QGin0dFARcdRISolJl6m869c"
+            }
+        },
+        {
+            "_id": "a28ef697-f7ae-4487-8655-b5ec30362a0c",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/region",
+            "url": "http://localhost:5000/api/comuna",
+            "method": "GET",
+            "sortNum": 7500,
+            "created": "2025-06-02T03:11:26.651Z",
+            "modified": "2025-06-02T03:17:18.992Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvcXVlc2VhQGdtYWlsLmNvbSIsImlhdCI6MTc0ODgzMzU5NSwiZXhwIjoxNzQ4ODM0Nzk1fQ.T7bvayCjvqQPGja0Rt6QGin0dFARcdRISolJl6m869c"
+            }
+        },
+        {
+            "_id": "f3f9b4f5-bf74-41cd-ac52-c33440dec890",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/region",
+            "url": "http://localhost:5000/api/comuna/1",
+            "method": "PATCH",
+            "sortNum": 13750,
+            "created": "2025-06-02T03:11:34.635Z",
+            "modified": "2025-06-02T03:17:39.347Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\":\"LOQUESEA\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvcXVlc2VhQGdtYWlsLmNvbSIsImlhdCI6MTc0ODgzMzU5NSwiZXhwIjoxNzQ4ODM0Nzk1fQ.T7bvayCjvqQPGja0Rt6QGin0dFARcdRISolJl6m869c"
+            }
+        },
+        {
+            "_id": "0862054d-05dc-4652-ae5a-4c6b4dc7344d",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/region",
+            "url": "http://localhost:5000/api/comuna/1",
+            "method": "DELETE",
+            "sortNum": 23750,
+            "created": "2025-06-02T03:12:13.920Z",
+            "modified": "2025-06-02T03:19:03.794Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvcXVlc2VhQGdtYWlsLmNvbSIsImlhdCI6MTc0ODgzMzU5NSwiZXhwIjoxNzQ4ODM0Nzk1fQ.T7bvayCjvqQPGja0Rt6QGin0dFARcdRISolJl6m869c"
+            }
+        },
+        {
+            "_id": "48229013-43a5-4db9-8619-56412d1ebde7",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/usuario/:id",
+            "url": "http://localhost:5000/api/usuario/1",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2025-05-25T01:31:02.389Z",
+            "modified": "2025-05-25T01:35:37.813Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Juan\",\n  \"apellido\": \"Perez\",\n  \"rut\": \"11111111-1\",\n  \"img_perfil\": \"\",\n  \"email\": \"juan.perez@latam.cl\",\n  \"password\": \"dsfkdfjj38y7343rEFREEFWfh34E\",\n  \"id_rol\": 1\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJpYXQiOjE3NDYxMzI0MzgsImV4cCI6MTc0NjEzMjU1OH0.yr4YcQTVtMn06-z9TVU7iIInTibQkRA2JribZkcifUo"
+            }
+        },
+        {
+            "_id": "4194d1ba-bc06-4dc6-8261-3d3fecc7f691",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/producto",
+            "url": "http://localhost:5000/api/producto",
+            "method": "POST",
+            "sortNum": 27500,
+            "created": "2025-05-25T00:25:39.270Z",
+            "modified": "2025-06-08T19:04:11.806Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_categoria\": 1,\n  \"nombre\":\"Pokemon\",\n  \"descripcion\":\"Pokemon Safari\",\n  \"idioma\":\"NA\",\n  \"precio_venta\":55000,\n  \"descuento\":0,\n  \"img\":\"http://imagendelproducto.cl\",\n  \"estado\":\"\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDA5MjU4LCJleHAiOjE3NDk0MTA0NTh9.N-I5TbGzv7aBgv8NTSfGd7b6pG0QOIQ8hwaGAfMzDD0"
+            }
+        },
+        {
+            "_id": "78322cbe-51ad-41f3-bf4f-0db739fa2dfe",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/productos",
+            "url": "http://localhost:5000/api/productos",
+            "method": "GET",
+            "sortNum": 37500,
+            "created": "2025-06-08T19:04:27.568Z",
+            "modified": "2025-06-08T21:36:47.549Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDE4NTg5LCJleHAiOjE3NDk0MTk3ODl9.-5FCmNoHDZ1b8svTcE6xwmJqgbiuYs1-MMgAeJO64ss"
+            }
+        },
+        {
+            "_id": "405cbfa9-2b60-4344-ba67-e95701c21688",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/inventario",
+            "url": "http://localhost:5000/api/inventario",
+            "method": "POST",
+            "sortNum": 44531.3,
+            "created": "2025-06-08T21:34:53.636Z",
+            "modified": "2025-06-08T21:38:20.011Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_producto\": 25,\n  \"precio_compra\": 10000,\n  \"cantidad\": 200\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDE4NTg5LCJleHAiOjE3NDk0MTk3ODl9.-5FCmNoHDZ1b8svTcE6xwmJqgbiuYs1-MMgAeJO64ss"
+            }
+        },
+        {
+            "_id": "54377d21-6ffa-49af-a591-f69022b196c2",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/direccion",
+            "url": "http://localhost:5000/api/direccion",
+            "method": "POST",
+            "sortNum": 51562.5,
+            "created": "2025-05-25T23:13:53.654Z",
+            "modified": "2025-06-08T19:08:13.840Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_usuario\": 2,\n  \"direccion\": \"Calle 2\",\n  \"numero\": 1222,\n  \"anexo\": \"\",\n  \"id_region\": 1,\n  \"id_comuna\": 1\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDA5MjU4LCJleHAiOjE3NDk0MTA0NTh9.N-I5TbGzv7aBgv8NTSfGd7b6pG0QOIQ8hwaGAfMzDD0"
+            }
+        },
+        {
+            "_id": "fe9b390c-8b8c-42bc-865a-94ffb76c0c43",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/inventario/:id",
+            "url": "http://localhost:5000/api/inventario/1",
+            "method": "DELETE",
+            "sortNum": 52304.7,
+            "created": "2025-06-08T21:42:24.929Z",
+            "modified": "2025-06-08T21:42:48.405Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDE4NTg5LCJleHAiOjE3NDk0MTk3ODl9.-5FCmNoHDZ1b8svTcE6xwmJqgbiuYs1-MMgAeJO64ss"
+            }
+        },
+        {
+            "_id": "2d0f30b8-b4d2-45cc-97e1-feeb8d753e87",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/inventario/:id",
+            "url": "http://localhost:5000/api/inventario/25",
+            "method": "GET",
+            "sortNum": 53046.9,
+            "created": "2025-06-08T21:41:55.719Z",
+            "modified": "2025-06-08T21:41:55.719Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDE4NTg5LCJleHAiOjE3NDk0MTk3ODl9.-5FCmNoHDZ1b8svTcE6xwmJqgbiuYs1-MMgAeJO64ss"
+            }
+        },
+        {
+            "_id": "f164118c-cee0-4cd4-8d95-1bc79d9b09e6",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/inventario",
+            "url": "http://localhost:5000/api/inventario",
+            "method": "GET",
+            "sortNum": 54531.3,
+            "created": "2025-06-08T21:38:03.606Z",
+            "modified": "2025-06-08T21:42:17.757Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDE4NTg5LCJleHAiOjE3NDk0MTk3ODl9.-5FCmNoHDZ1b8svTcE6xwmJqgbiuYs1-MMgAeJO64ss"
+            }
+        },
+        {
+            "_id": "162a78c3-f692-48b1-b6fd-1b734bfb6013",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/direccion:/id",
+            "url": "http://localhost:5000/api/direcciones/2",
+            "method": "GET",
+            "sortNum": 61562.5,
+            "created": "2025-06-08T19:08:19.122Z",
+            "modified": "2025-06-08T19:09:53.082Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDA5MjU4LCJleHAiOjE3NDk0MTA0NTh9.N-I5TbGzv7aBgv8NTSfGd7b6pG0QOIQ8hwaGAfMzDD0"
+            }
+        },
+        {
+            "_id": "a1ce316c-2529-4bfb-9452-adcbb1aa3f54",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/direccion:/id",
+            "url": "http://localhost:5000/api/direccion/2",
+            "method": "DELETE",
+            "sortNum": 71562.5,
+            "created": "2025-06-08T19:11:01.292Z",
+            "modified": "2025-06-08T19:11:13.509Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDA5MjU4LCJleHAiOjE3NDk0MTA0NTh9.N-I5TbGzv7aBgv8NTSfGd7b6pG0QOIQ8hwaGAfMzDD0"
+            }
+        },
+        {
+            "_id": "b77856ab-5362-4fb7-9b02-5c981423da1d",
+            "colId": "2c919fb3-e4c2-4351-b094-416d5fb20427",
+            "containerId": "",
+            "name": "/api/venta",
+            "url": "http://localhost:5000/api/venta",
+            "method": "POST",
+            "sortNum": 81562.5,
+            "created": "2025-06-09T00:21:16.275Z",
+            "modified": "2025-06-09T00:21:58.136Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"id_usuario\": 2,\r\n  \"descripcion\": \"Compra realizada el 8 de junio\",\r\n  \"detalle\": [\r\n    {\r\n      \"id_producto\": 1,\r\n      \"cantidad\": 2,\r\n      \"precio_venta\": 10000,\r\n      \"descuento\": 0,\r\n      \"precio_final\": 20000\r\n    },\r\n    {\r\n      \"id_producto\": 2,\r\n      \"cantidad\": 1,\r\n      \"precio_venta\": 15000,\r\n      \"descuento\": 1000,\r\n      \"precio_final\": 14000\r\n    }\r\n  ]\r\n}\r\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQGxhdGFtLmNsIiwiaWF0IjoxNzQ5NDI4NTA0LCJleHAiOjE3NDk0Mjk3MDR9.89U9xvi_FiPRPMLSGvt8p7L5qRMyupVgi7TK1K1POEs"
+            }
+        }
+    ],
+    "ref": "0uEgkDHr_1NwTIro7DMRo2CyCaiZ-s8s-CQIXKh67tp3KfUao4Cl-Zvw2rTnEg7dVrVrFiy7qZv0OqegOQmC2Q"
+}

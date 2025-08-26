@@ -1,0 +1,75 @@
+.main-container{
+    text-align: center;
+}
+.group-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card-container {
+  flex: 1 1 300px;
+  max-width: 600px;
+  background-color: #e6e6e6;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  min-width: 300px;
+}
+
+.acciones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.btn-r,
+.btn-a,
+.btn-v {
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  color: white !important;
+  width: auto;
+  min-width: 140px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-r{
+  background-color: #ff0000 !important;
+}
+.btn-r:hover {
+  background-color: #b91c1c !important;
+}
+
+.btn-a {
+  background-color: #1e3a8a !important;
+}
+.btn-a:hover {
+  background-color: #1d4ed8 !important;
+}
+
+.btn-v {
+  background-color: #16a34a !important;
+  margin: 2rem auto 3rem;
+  display: block;
+  min-width: 200px;
+}
+.btn-v:hover {
+  background-color: #15803d !important;
+}

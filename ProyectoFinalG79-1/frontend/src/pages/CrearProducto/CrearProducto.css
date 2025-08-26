@@ -1,0 +1,26 @@
+.container-form {
+  width: 100%;
+  max-width: 800px;
+  background-color: #e6e6e6;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem 1rem;
+}
+
+.btn-verde {
+  background-color: #077f2b !important;
+  border-color: #077f2b !important;
+  color: white !important;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+}
+
+.btn-verde:hover {
+  background-color: #0d9436 !important;
+  border-color: #0d9436 !important;
+}

@@ -1,0 +1,33 @@
+.container-custom {
+    max-width: 500px;
+}
+
+.item-name {
+    max-width: 150px;
+}
+
+.item-info {
+    text-align: center;
+}
+
+.item-img {
+    width: 100px;
+    height: 80px;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.d-flex-align {
+    justify-content: center;
+    align-items: center;
+}
+
+.d-block-price {
+    margin-right: 0.5rem;
+}
+
+.mb-md-0-custom {
+    margin-bottom: 0 !important;
+}

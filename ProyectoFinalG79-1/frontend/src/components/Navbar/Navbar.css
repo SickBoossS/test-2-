@@ -1,0 +1,198 @@
+.custom-navbar {
+  padding: 0.5rem 0.5rem !important;
+  background-color: #e5e5e5 !important;
+}
+
+.navbar-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: nowrap; 
+}
+
+.navbar-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left {
+  justify-content: flex-start;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+  white-space: nowrap; 
+}
+
+.navbar-center {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap; 
+}
+
+.navbar-logo {
+  height: 50px;
+  max-width: 220px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.navbar-right-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  justify-content: flex-end;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.navbar-username {
+  font-family: 'Russo One', sans-serif;
+  white-space: nowrap;
+}
+
+.total-button {
+  color: rgb(0, 0, 0) !important;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.total-button:hover {
+  transform: scale(1.1);
+}
+
+.cart-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.cart-amount {
+  font-weight: 600;
+  max-width: 100px; 
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  user-select: none;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.icon-img {
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.icon-button:hover .icon-img {
+  transform: scale(1.1);
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: 'Russo One', sans-serif;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: slideDown 0.2s ease-out forwards;
+}
+
+@keyframes slideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.icon-emoji {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.icon-emoji:hover {
+  transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 40px;
+    max-width: 180px;
+  }
+
+  .total-button {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+    max-width: 120px;
+  }
+
+  .icon-img {
+    height: 22px;
+    width: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-logo {
+    height: 36px;
+    max-width: 140px;
+  }
+
+  .total-button {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.3rem;
+    max-width: 110px;
+  }
+
+  .cart-icon {
+    font-size: 1.1rem;
+  }
+
+  .cart-amount {
+    max-width: 90px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

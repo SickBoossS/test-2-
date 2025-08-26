@@ -1,0 +1,25 @@
+.slider-container {
+  margin: 30px auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Imagen del slider */
+.slider-image {
+  width: 100%;
+   max-height: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  .slider-image {
+    height: 180px;
+  }
+}

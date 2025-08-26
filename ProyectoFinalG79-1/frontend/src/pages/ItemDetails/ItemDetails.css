@@ -1,0 +1,18 @@
+.item-details-container {
+  max-width: 960px;
+  padding: 0 1rem;
+}
+
+.item-description {
+  background: linear-gradient(120deg, #e5e5e5, #ffffff);
+  border-left: 6px solid #294168;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.item-extra-info {
+  background-color: #e5e5e5;
+  border-left: 5px solid #294168;
+  font-size: 1rem;
+}
